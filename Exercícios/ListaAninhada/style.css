@@ -1,21 +1,96 @@
-#closeProj {
-    padding-left: 50px; 
-}
-#projectList {
-    text-align: left;
-    background-color: #abdbe3;
-    width:fit-content;
-    height: max-content;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-style: solid;
-    border-color: black;
-    border-left-width: thin;
+* {
+    border: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
 }
 
-.list{
-    background-color: aliceblue;
-    color: #063970;
+.title { 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+
+#projectList {
+    text-align: left;
+    width:fit-content;
+    height: max-content;
+}
+
+#appList > li, #configList > li, #frontendList  > li, #publicList > li  {
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
+   
+    padding: 5px 70px;
+}
+
+#publicList > li  {   
+    padding: 5px 130px;
+}
+
+body {
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+ul, li { 
+    background-color: #abdbe3;
+    
+    border: 0 !important;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left-width: thin;
+
+    font-size: 18px;
+}
+
+li:hover {
+    filter: brightness(0.9);
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer
+}
+
+.projectButton {
+    width: 100%;
+    text-align: left;
+}
+
+.projectButton:hover {
+    filter: brightness(0.9);
+    cursor: pointer;
+}
+
+ul.tree li:before, ul.tree li:last-child:before { 
+    border: 0;
+}
+
+
+button { 
+    background-color: #abdbe3;
+    width: fit-content;
+    height: fit-content;
+
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left-width: thin;
+
+    font-size: 18px;
+    padding: 5px 40px;
+}
+
+ul.tree li {
+    margin: 0;
+    padding: 0;
+}
+
+ul.tree ul {
+    margin-left: 0;
 }
