@@ -1,0 +1,158 @@
+
+@font-face {
+    font-family: PanPizza;
+    src: url(fonts/panpizza.ttf);
+}
+@font-face {
+    font-family: Cherry;
+    src: url(fonts/Cherry.ttf);
+}
+.cabecalho {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+    margin-bottom: -100px;
+    height: 300px;
+    width: 100%;
+
+    background-color:#fbf6d0 ;
+}
+#title {
+    border-radius: 10px;
+
+    font-size: 60px;
+    font-family: PanPizza;
+    color: #1f0e1a;
+
+    display: flex;
+    justify-content: center;
+
+}
+#hotPizza {
+    display: flex;
+    padding-left: 10px;
+
+    font-size: 90px;
+    color: #f88f89;
+}
+.subtitle{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    
+    font-size: 30px;
+    font-family: Cherry;
+}
+
+#container {
+    font-family: Cherry;
+    font-weight: bolder;
+
+    padding-left: 100px;
+    display:block;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: #79c3aa ;
+    border: 2px solid #13747d;
+    border-radius: 10px;
+ 
+    width: 500px;
+    height: 600px;
+}
+.boxDescription {
+    margin-left: 0px;
+    color:#1f0e1a;
+
+    border-bottom: solid 1px #000
+}
+#bordaRecheada{
+    cursor: pointer;
+}
+
+.boxChoice {
+    display: block;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    
+    background-color: #fbf6d0;
+
+    border-radius: 10px;
+    border-top: solid 1px #000;
+    border-right: solid 1px #000;
+
+    cursor: pointer;
+}
+.boxChoice:hover {
+    background-color: #f3ddb6;
+}
+#prefs{
+    width: 250px;
+    height: 100px;
+    cursor: text;
+    text-align: start;
+    padding-top: 0px;
+    background-color: #f3ddb6;
+}
+#submit{
+    margin-right: 45px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+    background-color:#f88f89;
+    border-radius: 10px;
+    border: solid 1px #000;
+    
+    color: #000;
+
+    cursor: pointer;
+}
+#submit:hover {
+    background-color: #e9b0ad;
+    border: solid 1px #000;
+
+}
+#telaAguardando {
+
+    font-family: Cherry;
+    font-weight: bolder;
+
+    padding-left: 100px;
+    display:block;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: #79c3aa ;
+    border: 2px solid #13747d;
+    border-radius: 10px;
+ 
+    width: 500px;
+    height: 600px;
+}
+#gifPizza {
+    width: 100px;
+    height: 100px;
+    
+    margin-left: 160px;
+}
+#nota{ 
+    margin-right: 45px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+    background-color:#f88f89;
+    border-radius: 10px;
+    border: solid 1px #000;
+    
+    color: #000;
+
+    cursor: pointer;
+}
