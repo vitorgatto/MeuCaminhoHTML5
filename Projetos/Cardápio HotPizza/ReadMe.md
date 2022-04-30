@@ -21,7 +21,7 @@ Isso diminui o tempo do atendimento, deixando-o dinâmico e eficiente.
 ![app home](./images/app_home.png)
 
 ### Pedido sendo preparado
-![app finish](./images/app_finish.png)
+![app finish](./images/app_done.png)
 
 
 
