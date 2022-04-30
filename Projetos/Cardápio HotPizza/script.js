@@ -38,6 +38,7 @@ function toogleCheckBoxTrue () {
         document.getElementById('comBorda').style.display=''
     } else {
         toogleCheckBox = false
+        document.getElementById('comBorda').style.display='none'
     }
 }
 function telaAguardando() {
